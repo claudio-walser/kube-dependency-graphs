@@ -1,3 +1,4 @@
+```mermaid
 graph
   d5a5c46d-2ef6-438f-bdc9-37359da20d6b((argocd-de...)):::ReplicaSet
   e3ee86e5-a1d5-4528-8e0c-5b526f7ba97a((argocd-re...)):::ReplicaSet
@@ -36,3 +37,4 @@ graph
   09b910a7-5072-e8b4-f364-b8495d6d0d58 -- StatefulSet --> 5a2ff591-752e-47e3-a959-8b6d23fd0a76
   ab1324ff-472c-4f04-bfcc-8e98a4f5b617 -- InitContainer --> 448e1b8b-f7ea-b441-3df9-9fb71f7e60bd
   ebedf49a-e0f6-456f-9f02-81794bf118f5 -- Container --> 86ee4a5e-baa3-7a43-b63a-f87f69c03ef8
+```
